@@ -33,7 +33,7 @@
 .content-wrapper {
   position: relative;
   z-index: 1;
-  background-color: rgb(16, 38, 70);
+  background-color: #2b3252
 }
 
 .btn-primary {
@@ -120,7 +120,7 @@ h2 {
 .navbar {
   margin: -20px;
   background-color: #102646;
-  border-bottom-color: #ffffff;
+  /* border-bottom-color: #ffffff; */
   font-size: 2em;
   font-family: "Arvo";
   font-style: normal;
@@ -252,6 +252,12 @@ h2 {
 .slick-arrow.slick-hidden {
   display: none;
 }
+/* #navbarSupportedContent
+{
+background-color: #2b3252;}
+.nav-link{
+  color:#fad744;
+} */
 /* ----------- iPad 1, 2, Mini and Air ----------- */
 
 /* Portrait and Landscape */
