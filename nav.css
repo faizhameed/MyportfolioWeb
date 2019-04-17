@@ -1,0 +1,40 @@
+.navbar-nav {
+  display: -ms-flexbox;
+  display: table-header-group;
+}
+.navbar {
+  margin: -20px;
+  background-color: #102646;
+  border-bottom-color: #ffffff;
+  font-size: 2em;
+  font-family: "Arvo";
+  font-style: normal;
+}
+.nav-item {
+  padding-inline-start: 10px;
+  padding-top: 20px;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  color: rgb(0, 0, 0);
+  background-color: #102646;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #210e57;
+  background-color: transparent;
+}
+/* Portrait tablets and landscape mobiles */
+@media (max-width: 767px) {
+  .navbar {
+    display: none;
+  }
+}
+
+/* // Portrait mobiles */
+@media (max-width: 480px) {
+  .navbar {
+    display: none;
+  }
+}
